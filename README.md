@@ -1,16 +1,51 @@
+<!--
+
+ * @Author: Harry
+ * @Date: 2022-04-20 20:37:06
+ * @LastEditors: harry
+ * @Github: https://github.com/rr210
+ * @LastEditTime: 2022-04-20 22:51:42
+ * @FilePath: \webcli\README.md
+   -->
+
 # webcli
+
 - 常用的vue2/3脚手架,公共配置，无需再次配置
 - 使用git命令将所需的vue初始化cli拉取指定分支
 
 # 仓库分支介绍
+
+1. vue2+element-ui+sass
+   `git命令` `node版本 14.18.3`
+
+```git
+git clone -b v2-el-sass https://github.com/Rr210/webcli.git
+```
+
+2. vue2+elment-ui+less
+
+```git
+git clone -b v2-el-less https://github.com/Rr210/webcli.git
+```
+
+3. vue2+vant2+less
+```git
+git clone -b v2-vt2-less https://github.com/Rr210/webcli.git
+```
+
+4. vue2+vant2+sass
+
+```git
+git clone -b v2-vt2-sass https://github.com/Rr210/webcli.git
+```
 # 常用的npm包
 
-| npm名称          | 地址                                                         |
-| ---------------- | ------------------------------------------------------------ |
-| vue富文本        | [vue-quill-editor](https://github.surmon.me/vue-quill-editor) |
-| sass全局变量使用 | [sass-resources-loader](https://www.npmjs.com/package/sass-resources-loader) |
+| npm名称          | 地址                                                                                                             |
+| ---------------- | ---------------------------------------------------------------------------------------------------------------- |
+| vue富文本        | [vue-quill-editor](https://github.surmon.me/vue-quill-editor)                                                    |
+| sass全局变量使用 | [sass-resources-loader](https://www.npmjs.com/package/sass-resources-loader)                                     |
 | 常用的动画效果   | [animate](https://animate.style/) [css3动画](https://www.webhek.com/post/css3-animation-sniplet-collection.html) |
-| github部署项目   | [gh-pages](https://www.npmjs.com/package/gh-pages)           |
+| github部署项目   | [gh-pages](https://www.npmjs.com/package/gh-pages)                                                               |
 
 # node和node-sass版本关系
 
@@ -30,6 +65,7 @@
 | Node <8 | <5.0                        | <57         |
 
 ### node-sass 和 sass-loader版本
+
 ```
 sass-loader 4.1.1，node-sass 4.3.0
 sass-loader 7.0.3，node-sass 4.7.2
@@ -38,4 +74,5 @@ sass-loader 7.3.1，node-sass 4.14.1
 sass-loader 8.0.2，node-sass 4.12.0
 sass-loader 10.2.0，node-sass 6.0.1
 ```
+
 - 最新查看原地址【[node-sass](https://github.com/sass/node-sass/)】
