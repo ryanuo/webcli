@@ -1,11 +1,10 @@
-/***
- * @Description:
+/*
  * @Author: Harry
- * @Date: 2021-10-19 22:49:09
- * @Url: https://u.mr90.top
- * @github: https://github.com/rr210
- * @LastEditTime: 2021-10-19 22:49:10
- * @LastEditors: Harry
+ * @Date: 2022-04-20 22:28:23
+ * @LastEditors: harry
+ * @Github: https://github.com/rr210
+ * @LastEditTime: 2022-04-20 22:44:25
+ * @FilePath: \webcli\vue.config.js
  */
 const path = require('path')
 module.exports = {
@@ -30,6 +29,17 @@ module.exports = {
         args[0].title = 'vue2+element+sass'
         return args
       })
+  },
+  devServer: {
+    open: false, // 项目启动时是否自动打开浏览器，我这里设置为false,不打开，true表示打开
+    proxy: {
+      '/v1': {
+        target: 'http://127.0.0.1:5051/', // 对应自己的接口，代理地址修改后必须重启项目
+        changeOrigin: true, // 是否允许跨域
+        pathRewrite: {
+          '^/v1': ''
+        }
+      }
+    }
   }
-  // ...
 }
