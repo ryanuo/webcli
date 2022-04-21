@@ -4,7 +4,7 @@
  * @Date: 2022-04-20 20:37:06
  * @LastEditors: harry
  * @Github: https://github.com/rr210
- * @LastEditTime: 2022-04-20 23:09:53
+ * @LastEditTime: 2022-04-21 11:13:18
  * @FilePath: \webcli\README.md
    -->
 
@@ -81,13 +81,17 @@ git clone -b v3-v-vt3-less https://github.com/Rr210/webcli.git
 ```
 # 常用的npm包
 
-| npm名称          | 地址                                                                                                             |
-| ---------------- | ---------------------------------------------------------------------------------------------------------------- |
-| vue富文本        | [vue-quill-editor](https://github.surmon.me/vue-quill-editor)                                                    |
-| sass全局变量使用 | [sass-resources-loader](https://www.npmjs.com/package/sass-resources-loader)                                     |
-| 常用的动画效果   | [animate](https://animate.style/) [css3动画](https://www.webhek.com/post/css3-animation-sniplet-collection.html) |
-| github部署项目   | [gh-pages](https://www.npmjs.com/package/gh-pages)                                                               |
+| npm名称          | 地址                                                                                                             | npm名称           | 地址                                                                                                                                                                                           |
+| ---------------- | ---------------------------------------------------------------------------------------------------------------- | ----------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| vue富文本        | [vue-quill-editor](https://github.surmon.me/vue-quill-editor)                                                    | 海报截图工具      | [html2canvas](https://allenchinese.github.io/html2canvas-docs-zh-cn/docs/html2canvas-getStart.html)                                                                                            |
+| sass全局变量使用 | [sass-resources-loader](https://www.npmjs.com/package/sass-resources-loader)                                     | 轮播图工具        | [swiper](https://swiperjs.com/vue)                                                                                                                                                             |
+| 常用的动画效果   | [animate](https://animate.style/) [css3动画](https://www.webhek.com/post/css3-animation-sniplet-collection.html) | 处理移动端rem适配 | [amfe-flexible，postcss-pxtorem](http://vuepress.wmm66.com/%E5%89%8D%E7%AB%AF%E5%BC%80%E5%8F%91/other/%E7%A7%BB%E5%8A%A8%E7%AB%AF%E9%80%82%E9%85%8D%E6%96%B9%E6%A1%88.html#%E7%AE%80%E4%BB%8B) |
+| github部署项目   | [gh-pages](https://www.npmjs.com/package/gh-pages)                                                               | 上传图片压缩      | [compressorjs](https://www.npmjs.com/package/compressorjs)                                                                                                                                     |
+| 移动端滑动问题   | [better-scroll](https://better-scroll.github.io/docs/zh-CN/guide/)                                               |
 
+# 常用的性能优化
+
+1. 首页白屏优化[查看](http://vuepress.wmm66.com/%E5%89%8D%E7%AB%AF%E5%BC%80%E5%8F%91/vue/vue%E9%A6%96%E9%A1%B5%E7%99%BD%E5%B1%8F%E4%BC%98%E5%8C%96.html#%E5%BC%80%E5%90%AF%E8%B7%AF%E7%94%B1%E6%87%92%E5%8A%A0%E8%BD%BD)
 # node和node-sass版本关系
 <details>
 <summary>node-sass and sass-loader 点击展开</summary>
