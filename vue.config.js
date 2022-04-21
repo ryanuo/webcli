@@ -3,7 +3,7 @@
  * @Date: 2022-04-21 10:27:45
  * @LastEditors: harry
  * @Github: https://github.com/rr210
- * @LastEditTime: 2022-04-21 10:40:34
+ * @LastEditTime: 2022-04-21 11:42:05
  * @FilePath: \webcli\vue.config.js
  */
 /*
@@ -65,12 +65,8 @@ module.exports = {
     proxy: {
       '/v1': {
         target: 'http://127.0.0.1:5051/', // 对应自己的接口，代理地址修改后必须重启项目
-        // target: 'http://2e3e-60-223-236-230.ngrok.io', // 对应自己的接口，代理地址修改后必须重启项目
-        // target: 'https://detect.mr90.top/', //对应自己的接口，代理地址修改后必须重启项目
         changeOrigin: true, // 是否允许跨域
         pathRewrite: {
-          // 重写路径，当我们在浏览器中看到请求的地址为：http://localhost:8080/api/user/userInfo 时
-          // 实际上访问的地址是：http://192.168.1.249:9527/user/userInfo,因为重写了 /api
           '^/v1': ''
         }
       }
