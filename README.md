@@ -4,7 +4,7 @@
  * @Date: 2022-04-20 20:37:06
  * @LastEditors: harry
  * @Github: https://github.com/rr210
- * @LastEditTime: 2022-04-21 11:13:18
+ * @LastEditTime: 2022-04-21 11:37:55
  * @FilePath: \webcli\README.md
    -->
 
@@ -87,7 +87,7 @@ git clone -b v3-v-vt3-less https://github.com/Rr210/webcli.git
 | sass全局变量使用 | [sass-resources-loader](https://www.npmjs.com/package/sass-resources-loader)                                     | 轮播图工具        | [swiper](https://swiperjs.com/vue)                                                                                                                                                             |
 | 常用的动画效果   | [animate](https://animate.style/) [css3动画](https://www.webhek.com/post/css3-animation-sniplet-collection.html) | 处理移动端rem适配 | [amfe-flexible，postcss-pxtorem](http://vuepress.wmm66.com/%E5%89%8D%E7%AB%AF%E5%BC%80%E5%8F%91/other/%E7%A7%BB%E5%8A%A8%E7%AB%AF%E9%80%82%E9%85%8D%E6%96%B9%E6%A1%88.html#%E7%AE%80%E4%BB%8B) |
 | github部署项目   | [gh-pages](https://www.npmjs.com/package/gh-pages)                                                               | 上传图片压缩      | [compressorjs](https://www.npmjs.com/package/compressorjs)                                                                                                                                     |
-| 移动端滑动问题   | [better-scroll](https://better-scroll.github.io/docs/zh-CN/guide/)                                               |
+| 移动端滑动问题   | [better-scroll](https://better-scroll.github.io/docs/zh-CN/guide/)                                               |cookie设置|[js-cookie](https://github.com/js-cookie/js-cookie)|
 
 # 常用的性能优化
 
